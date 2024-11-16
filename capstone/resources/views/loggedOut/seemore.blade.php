@@ -4,39 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AID OF ANGELS</title>
-    <link rel="icon" type="image/x-icon" href="/img/logo.png">
+   
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="/css/seemore.css">
-       
+    <link rel="stylesheet" href="css/seemore.css">
+    
 </head>
-<body class="bg-gray-100">
+<body>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-      <a class="navbar-brand" href="#">
-          <img src="/img/logo.png" alt="Brand Logo">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav" style="color: white;">
-          <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Services</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
-              </li>
-          </ul>
-      </div>
-  </nav>
+     <!-- Navbar -->
+     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="Brand Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="color: white;">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
   
 
   <!-- Hero Section -->
@@ -145,17 +146,19 @@
     </div>
 </footer>
 
- 
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 
 <script>
-  $(window).scroll(function() {
+$(window).scroll(function() {
     if ($(this).scrollTop() > 50) {
         $('.navbar').addClass('scrolled');
     } else {
         $('.navbar').removeClass('scrolled');
     }
 });
-
     const carousel = document.getElementById('carousel');
   const totalImages = carousel.children.length;
   let currentIndex = 3; 

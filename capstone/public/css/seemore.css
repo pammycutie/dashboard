@@ -50,7 +50,6 @@ body::-webkit-scrollbar {
 .navbar.scrolled .navbar-brand img {
   height: 40px; 
 }
-
 /*-------------------------------------------------------------------------*/
 
 /* Hero Section Background and Container */
@@ -331,4 +330,69 @@ footer {
         margin: 0;
         
     }
+    
+}
+/*Mobile Mode--------------------------------------------------------------------------------*/
+@media (min-width: 768px) {
+    
+  .navbar.scrolled {
+      height: 70px; 
+      padding: 5px 10px; 
+  }
+
+  .nav-link {
+      font-size: 1rem; 
+      padding-top: 15px;
+  }
+
+  .navbar-brand img {
+      height: 60px; 
+  }
+
+  .navbar.scrolled .navbar-brand img {
+      height: 50px; 
+  }
+}
+
+@media (max-width: 767px) {
+  .jumbotron .container a {
+      color: black;
+      text-decoration: none;
+  }
+  .container .text-center a, .footer .container .row a{
+      color: white;
+  }
+  .navbar {
+      height: 10px; 
+      padding: 5px 10px; 
+      margin-top: -10px;
+  }
+
+  .navbar.scrolled {
+      height: 80px;
+      padding: 10px 10px 70px;
+  }
+
+  .nav-link {
+      font-size: 0.8rem; 
+      background-color: rgb(36, 36, 36);
+      padding-top: 10px;
+      
+  }
+  .navbar-collapse {
+    background-color: rgb(36, 36, 36); 
+}
+  .navbar.scrolled .nav-link {
+      font-size: 0.8rem; 
+      background-color: rgb(36, 36, 36);
+      padding: 10px;
+  }
+
+  .navbar-brand img {
+      height: 60px; 
+  }
+
+  .navbar.scrolled .navbar-brand img {
+      height: 50px; 
+  }
 }
