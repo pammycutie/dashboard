@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AID OF ANGELS</title>
    
-    <script src="https://cdn.tailwindcss.com"></script>
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="css/seemore.css">
+    
     
 </head>
 <body>
 
      <!-- Navbar -->
-     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <a class="navbar-brand" href="#">
             <img src="img/logo.png" alt="Brand Logo">
         </a>
@@ -45,7 +46,7 @@
     <div class="hero-overlay flex flex-col justify-center items-center text-white">
         <h1 class="hero-title">Our Story<br> 
             <p>Our Journey, Mission and Vision</p></h1> 
-        <button class="arrow arrow-left" onclick="prevSlide()">&#9664;</button>
+        <button class="arrow arrow-left" onclick="prevSlide()" style="background-color: transparent";>&#9664;</button>
         <div class="carousel-container">
             
             <div class="carousel" id="carousel">
@@ -59,7 +60,7 @@
           
             
           </div>
-          <button class="arrow arrow-right" onclick="nextSlide()">&#9654;</button>
+          <button class="arrow arrow-right" onclick="nextSlide()" style="background-color: transparent";>&#9654;</button>
         </div>
         
     </div>
@@ -105,48 +106,47 @@
         </div>
     </div>
 </section>
-<!-- Footer -->
-<footer>
-    <div class="footer-container">
-        <div class="footer-logo">
-            <img src="/img/logo.png" alt="Aid of Angels Logo" />
-            <p>&copy; 2024 Aid of Angels, Inc. All rights reserved.</p>
+<footer class="footer text-center text-lg-start">
+        <div class="container">
+            <div class="row py-4">
+                <div class="col-lg-4 col-md-12 footer-logo">
+                    <img src="img/logo.png" alt="Logo" class="img-fluid mb-3">
+                    <p class="footer-copyright">© 2024 Aid of Angels, Inc. All rights reserved.</p>
+                </div>
+                <div class="col-lg-8 col-md-12 footer-links">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 footer-column">
+                            <h4>Quick Links:</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#services">Services</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-md-4 footer-column">
+                            <h4>Resources:</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#autism-info">Autism Information</a></li>
+                                <li><a href="#therapy-guides">Therapy Guides</a></li>
+                                <li><a href="#location">Location & Directions</a></li>
+                                <li><a href="#faqs">FAQs</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-md-4 footer-column">
+                            <h4>Connect With Us:</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#facebook">Facebook</a></li>
+                                <li><a href="#twitter">Twitter</a></li>
+                                <li><a href="#instagram">Instagram</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="footer-links">
-            <div class="footer-column">
-                <h3>Quick Links</h3>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-            
-            <div class="footer-column">
-                <h3>Resources</h3>
-                <ul>
-                    <li><a href="#">Autism Information</a></li>
-                    <li><a href="#">Therapy Guides</a></li>
-                    <li><a href="#">Location & Directions</a></li>
-                    <li><a href="#">FAQs</a></li>
-                </ul>
-            </div>
-            
-            <div class="footer-column">
-                <h3>Connect With Us</h3>
-                <ul>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">Instagram</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</footer>
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    </footer>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
